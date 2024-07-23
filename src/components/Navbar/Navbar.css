@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(80, 123, 97);
+  color: white;
+  font-size: 15px;
+  position: relative;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  padding: 35px;
+  align-items: center;
+}
+.first {
+  font-size: 40px;
+  margin-left: 20px;
+}
+.second {
+  word-spacing: 35px;
+  margin-left: 300px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 20px;
+}
+.below-navbar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  padding: 35px;
+}
+.about {
+  font-size: 60px;
+  font-weight: 700;
+}
+.aboutus p {
+  width: 500px;
+  color: #d8cdcd;
+}
+.aboutus {
+  margin-left: 50px;
+}
+.buton1 {
+  background-color: #f9bf29;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  border-color: #f9bf29;
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: all .3s;
+}
+.buton2 {
+  background-color: transparent;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all .3s;
+}
+.img {
+  position: absolute;
+  left: 600px;
+  top: 150px;
+}
+.buton1:hover{
+  background-color: #d68046;
+}
+.buton2:hover{
+  border: white solid;
+}

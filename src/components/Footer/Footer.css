@@ -1,0 +1,17 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    margin-top: 250px;
+    padding: 40px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 70px;
+}
+.furni{
+    width: 300px;
+}
+.lastpart{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
